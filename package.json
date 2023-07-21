@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "gen": "ts-node ./index.ts",
-    "postinstall": "npm run gen"
+    "prepare": "npm run gen"
   },
   "files": ["output"], 
   "engines": {
