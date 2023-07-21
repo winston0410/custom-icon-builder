@@ -54,7 +54,7 @@ import {
     target,
     module: true,
     package: {
-      name: `custom-icon-set`,
+      name: `custom-icon-sets`,
       version: "1.0.0"
     },
     cleanup: true

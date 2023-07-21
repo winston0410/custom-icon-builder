@@ -1,9 +1,10 @@
 {
-  "name": "credit-card-icons",
+  "name": "custom-icon-builder",
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "gen": "ts-node ./index.ts"
+    "gen": "ts-node ./index.ts",
+    "postinstall": "npm run gen"
   },
   "files": ["output"], 
   "engines": {
