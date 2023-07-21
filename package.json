@@ -1,0 +1,24 @@
+{
+  "name": "credit-card-icons",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "gen": "ts-node ./index.ts"
+  },
+  "files": ["output"], 
+  "engines": {
+    "node": "18",
+    "npm": "9.5.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@iconify/tools": "^3.0.2",
+    "svg-credit-card-payment-icons": "github:winston0410/svg-credit-card-payment-icons#main"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0"
+  }
+}

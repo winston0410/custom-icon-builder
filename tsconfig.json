@@ -1,0 +1,29 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowJs": true,
+    "strict": true,
+    "rootDir": ".",
+    "sourceMap": false,
+    "composite": false,
+    "declaration": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "importHelpers": false,
+    "target": "ES2020",
+    "lib": ["esnext"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": "."
+  },
+  "exclude": ["node_modules", "tmp"],
+  "ts-node": {
+    // Do not forget to `npm i -D tsconfig-paths`
+    "require": ["tsconfig-paths/register"]
+  }
+}
