@@ -1,6 +1,7 @@
 {
   "name": "custom-icon-builder",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "scripts": {
     "gen": "ts-node ./index.ts",
